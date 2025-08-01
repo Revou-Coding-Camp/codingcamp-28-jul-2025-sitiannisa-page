@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Siti Annisa Rezkika - Coding Camp</title>
+</head>
+<body>
+
+    <header>
+        <img src="https://storage.googleapis.com/danacita-website-v3-prd/website_v3/images/Revou-alasan.original.png" alt="Logo" class="logo">
+        <nav class="nav-bar">
+        <a href="#">Home</a>
+        <a href="#">Our Profile</a>
+        <a href="#">Portofolio</a>
+        <a href="#">Message Us</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1 class="typ-h1">Hi Siti, Welcome To Website</h1>
+        <p class="typ-p">Ini adalah website latihan pertama</p>
+    </div>
+
+    <hr>
+    <hr>
+    <div class="headquarter">
+        <h1>Our Headquarter</h1>
+        <div class="location">
+            <div class="location-item">
+                <div class="circle"></div>
+                <div>Jakarta</div>
+            </div>
+            <div class="location-item">
+                <div class="circle"></div>
+                <div>Bandung</div>
+            </div>
+            <div class="location-item">
+                <div class="circle"></div>
+                <div>Surabaya</div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="message">
+        <h1>Message Us</h1>
+        <div class="container">
+            <div class="form-container">
+                <form id="messageForm">
+                    <label>
+                        <span>Nama :</span>
+                        <input type="text" name="nama" placeholder="Nama" required>
+                    </label>
+                    <label>
+                        <span>Tanggal Lahir :</span>
+                        <input type="date" name="tgl" required>
+                    </label>
+                    <label class="gender">
+                        <span>Jenis Kelamin :</span>
+                        <input type="radio" name="gender" value="Laki - Laki" checked> Laki-Laki
+                        <input type="radio" name="gender" value="Perempuan"> Perempuan
+                    </label>
+                    <label>
+                        <span>Pesan :</span>
+                        <textarea name="pesan" placeholder="Pesan" required></textarea>
+                    </label>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="result" id="result">
+                <p><strong>Current time :</strong> <span id="time"></span></p>
+                <p><strong>Nama :</strong> <span id="resNama">-</span></p>
+                <p><strong>Tanggal Lahir :</strong> <span id="resTgl">-</span></p>
+                <p><strong>Jenis Kelamin :</strong> <span id="resGender">-</span></p>
+                <p><strong>Pesan :</strong> <span id="resPesan">-</span></p>
+            </div>
+        </div>
+    </div>
+
+<script src="js/script.js"></script>
+
+    <hr>
+    <div class="footer">
+        <p>Create By RevoU</p>
+    </div>
+</body>
+</html>
